@@ -1,0 +1,336 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/Montserrat-Regular.woff') format('woff'); 
+  }
+ 
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    color: aliceblue;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.wrapper1{
+    margin-left: 220px;
+}
+.wrapper2{
+    max-width: 1400px;
+    padding: 0 auto;
+}
+.head0{
+    display: grid;
+    width: 100%;
+    height: 100px;
+    background: rgb(101,122,228);
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 0) 0%, rgba(0,0,0,1) 100%);
+}
+.head0logo{
+    position: absolute;
+    margin-left: 50px;
+    opacity: 80%;
+
+}
+.gl{
+    color: aliceblue;
+    background:none;
+    border:none;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-weight: 250;
+    font-size: 30px;
+    text-transform: uppercase;
+    height: 100px;
+    margin-left: 200px;
+    align-items: center;
+    display: flex;
+    
+}
+.ysl{
+    color: aliceblue;
+    background:none;
+    border:none;
+    cursor: pointer;
+    height: 100px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-weight: 250;
+    font-size: 30px;
+    text-transform: uppercase;
+    left: 600px;
+    align-items: center;
+    display: flex;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    background: url(../png/header2.png)
+}
+
+.header_logo{
+
+    font-family: 'Montserrat';
+    font-weight: 350;
+    font-size: 80px;
+    text-transform: uppercase;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header_button{
+    margin-left: 740px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;   
+    
+}
+/*pc1*/
+.pc1{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    background: url(../png/back2.png) no-repeat center
+}
+
+
+.cooler{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+
+   
+}
+.specif1{
+    margin-left: 1200px;
+    width: 220px;
+    height: 1500px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+}
+.konf1{
+    position: absolute;
+    left: 1200px;
+    top: 1210px;
+}
+
+.comp{
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    top: 650px;
+    left: 200px;
+
+}
+/*pc2*/
+.pc2{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.452);
+    background: url(../png/back3.png) no-repeat center
+}
+
+.razer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+
+
+}
+
+.specif2{
+    margin-left: 1200px;
+    width: 220px;
+    height: 1200px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+}
+
+.comp2{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 200px;
+    height: 650px;
+    width: 650px;
+
+}
+.konf2{
+    position: absolute;
+    left: 1200px;
+    top: 2210px;
+}
+/*pc3*/
+.pc3{
+    display: grid;
+    width: 100%;
+    height: 1000px;
+    background: url(../png/back4.png) no-repeat center
+}
+
+.omen{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+
+
+}
+
+.specif3{
+    margin-left: 1200px;
+    width: 220px;
+    height: 1200px;
+
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+    text-transform: uppercase;
+    
+}
+
+.comp3{
+    position: absolute;
+    margin-top: 250px;
+    height: 650px;
+
+
+}
+.konf3{
+    position: absolute;
+    left: 1200px;
+    top: 3210px;
+}
+/*end */
+
+.end{
+    display: grid;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.end-title1{
+    position: absolute;
+    text-align: left;
+    margin-right: auto;
+    left: 400px;
+    right: 0;
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+.end-title2{
+    position: absolute;
+    text-align: right;
+    margin-right: 400px;
+    right: 0;
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.icon-end{
+ margin-bottom: 400px;
+
+}
+.i1{
+    margin-top: 100px;
+    left: 225px;
+    position: absolute;
+
+}
+
+.i2{
+    margin-top: 100px;
+    left: 450px;
+    position:absolute;
+
+}
+
+.i3{
+    margin-top: 100px;
+    left: 675px;
+    position: absolute;
+}
+
+.title-icon{
+    word-spacing: 114px;
+    position: absolute;
+    left: 210px;
+    margin-top: 210px;
+    font-weight: 350;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.nomer{
+    position: absolute;
+    top: 3440px;
+    left: 1050px;
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.mail{
+    position: absolute;
+    top: 3500px;
+    left: 1050px;
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sity{
+    position: absolute;
+    top: 3560px;
+    left: 1050px;
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.b_button{
+    margin: auto;
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none; 
+}

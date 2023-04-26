@@ -1,0 +1,270 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/Montserrat-Regular.woff') format('woff'); 
+  }
+  
+body{
+    zoom: auto;  
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: normal;
+    color: aliceblue;
+}
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.wrapper1{
+    margin-left: 220px;
+}
+.wrapper2{
+    max-width: 1400px;
+    padding: 0 auto;
+}
+
+.header{
+    width: auto;
+    height: 500px;
+    background: url(../png/header1.png)
+}
+
+.butt1{
+    position: absolute;
+    margin-top: 160px;
+    left: -220px;
+}
+.butt2{
+    position: absolute;
+    margin-top: 160px;
+    left: 220px;
+}
+.header_logo{
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.header_button{
+    margin-left: 740px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none;   
+    
+}
+.award{
+    display: grid;
+    width: auto;
+    height: 680px;
+    background: url(../png/back5.png)  center;
+   
+    
+}
+
+.title0{
+    position: absolute;
+    margin-top: 130px;
+    left: 1000px;
+
+    font-style: normal;
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 70px;
+    text-transform: uppercase;
+
+
+    
+}
+.title{
+    position: absolute;
+    text-align: left;
+    
+    left: 1000px;
+    top: 700px;
+    width: 650px;
+    height: 402px;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 70px;
+    
+
+
+}
+
+.icon{
+    
+    margin-top: 60px;
+    
+}
+/*icons */
+.a1{
+    position: absolute;
+    padding: 90px 0px 5px 65px;
+    line-height: 40px;
+}
+.a2{
+    position: absolute;
+    padding: 270px 0px 5px 55px;
+    line-height: 40px;
+   }
+
+.a3{
+    position: absolute;
+    padding: 430px 0px 5px 55px;
+    line-height: 40px;
+   
+   }
+
+.a4{
+    position: absolute;
+    padding: 90px 0px 5px 410px;
+    line-height: 40px;  
+}
+
+.a5{
+    position: absolute;
+    padding: 270px 0px 5px 410px;
+    line-height: 40px;  
+}
+
+.a6{
+    position: absolute;
+    padding: 430px 0px 5px 410px;
+    line-height: 40px;  
+}
+/*icons end*/
+.photo{
+    width: auto;
+    height: 580px;
+    background-color: black;
+}
+.photo1{
+    position: relative;
+    left: 550px;
+
+}
+.title_master{
+    position: absolute;
+    text-align: left;
+    text-align: justify;
+ 
+    left: 230px;
+    top: 1240px;
+    width: 620px;
+    height: 402px;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 70px;
+}
+
+/*end */
+
+.end{
+    display: grid;
+    width: auto;
+    height: 500px;
+    background-color: black;
+}
+
+.end-title1{
+    position: absolute;
+    text-align: left;
+    margin-right: auto;
+    left: 400px;
+    right: 0;
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+.end-title2{
+    position: absolute;
+    text-align: right;
+    margin-right: 400px;
+    right: 0;
+    font-weight: 350;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.icon-end{
+ margin-bottom: 400px;
+
+}
+.i1{
+    margin-top: 100px;
+    left: 225px;
+    position: absolute;
+
+}
+
+.i2{
+    margin-top: 100px;
+    left: 450px;
+    position:absolute;
+
+}
+
+.i3{
+    margin-top: 100px;
+    left: 675px;
+    position: absolute;
+}
+
+.title-icon{
+    word-spacing: 114px;
+    position: absolute;
+    left: 210px;
+    margin-top: 210px;
+    font-weight: 350;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+.nomer{
+    position: absolute;
+    top: 1860px;
+    left: 1050px;
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.mail{
+    position: absolute;
+    top: 1920px;
+    left: 1050px;
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.sity{
+    position: absolute;
+    top: 1980px;
+    left: 1050px;
+    font-weight: 350;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.b_button{
+    margin: auto;
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border: none; 
+}
